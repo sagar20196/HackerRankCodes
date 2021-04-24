@@ -10,7 +10,6 @@ public class Solution {
 
     static void ConvertToBinary(int n)
     {
-        
         int rem=0;
         int count=0,c=0;
         while(n>0)
@@ -28,14 +27,11 @@ public class Solution {
             else
             {
                 count=0;
-            }
-            
+            } 
         }
-        System.out.print(c);
-        
+        System.out.print(c);    
     }
-
-
+	
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
